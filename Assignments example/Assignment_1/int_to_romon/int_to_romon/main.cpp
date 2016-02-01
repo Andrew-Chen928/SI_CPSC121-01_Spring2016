@@ -12,34 +12,42 @@ int main()
 	string result;
 	int number;
 	int index;
-	cout << "Enter an integer between 1 and 3999: ";
-	cin >> number;
+	char choice;
+	do{
+		cout << "Enter an integer between 1 and 3999: ";
+		cin >> number;
 
-	if (number < 1 || number > 3999)
-	{
-		cout << "Invalid input";
-	}
-	else
-	{
-		//get the thousands digit number and convert to roman number
-		index = number / 1000;
-		result += thousands[index];
-		number %= 1000;
+		if (number < 1 || number > 3999)
+		{
+			cout << "Invalid input";
+		}
+		else
+		{
+			//get the thousands digit number and convert to roman number
+			index = number / 1000;
+			result += thousands[index];
+			number %= 1000;
 
-		//get the hundreds digit number and convert to roman number
-		index = number / 100;
-		result += hundreds[index];
-		number %= 100;
+			//get the hundreds digit number and convert to roman number
+			index = number / 100;
+			result += hundreds[index];
+			number %= 100;
 
-		//get the tens digit number and convert to roman number
-		index = number / 10;
-		result += tens[index];
-		number %= 10;
+			//get the tens digit number and convert to roman number
+			index = number / 10;
+			result += tens[index];
+			number %= 10;
+
+			//convert the ones digit number to roman number
+			result += ones[number];
+		}
+		cout << "The roman number is: " << result << endl;
+		result = "";
+		cout << "Would you like to convert another number? (y/n)";
+		cin >> choice;
+		choice = toupper(choice);
+	} while (choice != 'N');
 	
-		//convert the ones digit number to roman number
-		result += ones[number];
-	}
-	cout << "The roman number is: " << result << endl;
 	system("pause");
 	return 0;
 }
