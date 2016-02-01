@@ -7,8 +7,6 @@ githib(class info from professor): https://github.com/2016-spring-csuf-benblazak
 SI leader: Chi (Andrew) 
 Email: chianchen@csu.fullerton.edu
 
-Lecture & lab time
-
 Lecture: Tu/Th 1:00 – 1:50 PM, E-202 
 
 Lab: Tu/Th 2:00 – 4:00 PM, CS-104 
