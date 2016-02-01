@@ -1,7 +1,7 @@
 # SI_CPSC121-01_Spring2016
 
-Professor: Benjamin Blazak 
-Email: bblazak@exchange.fullerton.edu
+Professor: Benjamin Blazak <br>
+Email: bblazak@exchange.fullerton.edu <br>
 githib(class info from professor): https://github.com/2016-spring-csuf-benblazak-cpsc-121
 
 SI leader: Chi (Andrew) 
