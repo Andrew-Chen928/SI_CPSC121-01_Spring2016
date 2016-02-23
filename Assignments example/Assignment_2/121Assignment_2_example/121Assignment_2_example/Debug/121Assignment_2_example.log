@@ -1,0 +1,34 @@
+﻿Build started 2/23/2016 11:18:46 AM.
+     1>Project "C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\121Assignment_2_example\121Assignment_2_example.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp neighborhood.cpp shape.cpp
+         main.cpp
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(59): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\main.cpp(60): warning C4018: '<=' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         shape.cpp
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\shape.cpp(123): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\shape.cpp(124): warning C4018: '<=' : signed/unsigned mismatch
+         neighborhood.cpp
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\neighborhood.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\neighborhood.cpp(219): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\neighborhood.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\neighborhood.cpp(225): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\andrew_chen\documents\visual studio 2013\projects\121assignment_2_example\121assignment_2_example\neighborhood.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\Debug\121Assignment_2_example.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\Debug\121Assignment_2_example.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\Debug\121Assignment_2_example.lib" /MACHINE:X86 Debug\buffer.obj
+         Debug\main.obj
+         Debug\neighborhood.obj
+         Debug\shape.obj
+         121Assignment_2_example.vcxproj -> C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\Debug\121Assignment_2_example.exe
+     1>Done Building Project "C:\Users\Andrew_Chen\Documents\Visual Studio 2013\Projects\121Assignment_2_example\121Assignment_2_example\121Assignment_2_example.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.85
